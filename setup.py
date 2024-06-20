@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 def readme():
-    with open('README.md', 'r') as file:
+    with open('README.md', 'r', encoding='utf-8') as file:
         return file.read()
 
 setup(
   name='mailSenderLib',
-  version='0.0.2',
+  version='0.0.3',
   author='BorshCode',
   author_email='rechkinnm@yandex.ru',
   description='Эта библиотека позволит Вам легко обновлять эл. почту.',
