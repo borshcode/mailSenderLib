@@ -6,7 +6,7 @@ def readme():
 
 setup(
   name='mailSenderLib',
-  version='0.0.1',
+  version='0.0.2',
   author='BorshCode',
   author_email='rechkinnm@yandex.ru',
   description='Эта библиотека позволит Вам легко обновлять эл. почту.',
